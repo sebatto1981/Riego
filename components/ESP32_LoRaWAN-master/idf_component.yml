@@ -1,0 +1,16 @@
+description: "LoRaWAN library for ESP32 + LoRa boards made by heltec"
+url: "https://github.com/HelTecAutomation/ESP32_LoRaWAN.git"
+targets:
+  - esp32
+  - esp32s3
+tags:
+  - arduino
+files:
+  include:
+    - "src/**/*"
+    - "examples/**/*"
+    - "img/**/*"
+    - "CMakeLists.txt"
+    - "Kconfig.projbuild"
+  exclude:
+    - "**/*"
